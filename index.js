@@ -50,3 +50,7 @@ for (let key in options) {
 console.log(Object.keys(options));
 // популярный способ получить длинну обьекта по первой вложенности
 console.log(Object.keys(options).length);
+
+// деструктуризация обьекта - достаем переменные из обьекта
+const { border, bg } = options.colors;
+console.log( border, bg );
