@@ -21,9 +21,14 @@ const options = {
     colors: {
         border: 'black',
         bg: 'red'
+    },
+    makeTest: function() {
+        console.log("Method makeTest og object options");
     }
 }
-
+// получаем выполнение метода makeTest
+options.makeTest();
+// получаем значение name
 console.log(options.name);
 
 // удаление елемента из обьекта по ключу
