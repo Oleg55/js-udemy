@@ -27,7 +27,7 @@ const options = {
 console.log(options.name);
 
 // удаление елемента из обьекта по ключу
-delete options.name; 
+// delete options.name; 
 console.log(options);
 
 // перебор обьекта
@@ -40,3 +40,8 @@ for (let key in options) {
         console.log(`Свойство(key) ${key} значение(options[key]) ${options[key]}`);
     }
 }
+
+// популярный методы обьекты
+console.log(Object.keys(options));
+// популярный способ получить длинну обьекта по первой вложенности
+console.log(Object.keys(options).length);
