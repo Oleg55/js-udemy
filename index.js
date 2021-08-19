@@ -6,6 +6,8 @@ function lernJS(lang, callback) {
    callback(); 
 }
 
-lernJS('JavaScript', function() {
+function done() {
     console.log('I finish this lesson!');
-})
+}
+
+lernJS('JavaScript', done); // передаем без груглых скобок
