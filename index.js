@@ -32,5 +32,11 @@ console.log(options);
 
 // перебор обьекта
 for (let key in options) {
-    console.log(`Свойство(key) ${key} значение(options[key]) ${options[key]}`);
+    if(typeof(options[key])=== 'object') {
+        for (let i in options[key]) {
+            console.log(`Свойство(i) ${i} значение(options[key][i]) ${options[key][i]}`);
+        }
+    } else {
+        console.log(`Свойство(key) ${key} значение(options[key]) ${options[key]}`);
+    }
 }
