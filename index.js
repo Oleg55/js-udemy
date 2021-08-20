@@ -357,3 +357,7 @@ if (switcher) {
 console.log(typeof(Boolean('4')));
 // 3)
 console.log(typeof(!!'44444'));
+
+// lesson 27
+// файл sobesJobs
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
