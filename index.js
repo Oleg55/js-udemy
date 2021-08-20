@@ -243,3 +243,37 @@ const q = {
 };
 const newq = {...q};
 console.log(newq);
+
+
+// lesson 22
+// ооп,  прототипно-ориентированное наследие
+
+// пример со строкой
+let str = 'some';
+let strObj = new String(str);
+console.log(typeof(str));
+console.log(typeof(strObj));
+
+// пример ооп на обьектах
+const soldier = {
+    health: 400,
+    armor: 100,
+    sayHello: function() {
+        console.log("Hello");
+    }
+};
+const jonh = {
+    health: 200
+};
+// устаревший вариант через __proto__ в реальности не стоит использовать
+// jonh.__proto__ = soldier;
+// насдедовали свойсво armor
+// jonh.armor
+
+// новый вариан который сейчас нужно использоывть для наследования обьекта
+// Object.setPrototypeOf(новый обьект, обьект от которого наследуемся)
+
+Object.setPrototypeOf(jonh, soldier);
+console.log(jonh);
+console.log(jonh.armor);
+jonh.sayHello();
