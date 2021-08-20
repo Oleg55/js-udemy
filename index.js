@@ -372,3 +372,8 @@ console.log(typeof(!!'44444'));
 // файл DOM2
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
 
+// lesson 30
+// задание на отработку дейсвий со странице
+// файл DOM-hw
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
