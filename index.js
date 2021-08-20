@@ -277,3 +277,15 @@ Object.setPrototypeOf(jonh, soldier);
 console.log(jonh);
 console.log(jonh.armor);
 jonh.sayHello();
+
+// вариант наследования обьекта и работы с ним который примняется в реальности
+// const jonh = Object.create(обьект от которого наследуем все свойства);
+const soldierReal = {
+    health: 400,
+    armor: 100,
+    sayHello: function() {
+        console.log("HelloReal");
+    }
+};
+const jonh = Object.create(soldierReal);
+jonh.sayHello();
