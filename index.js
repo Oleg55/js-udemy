@@ -161,3 +161,85 @@ console.log(obj);
 // тут получим 
 // { a: 10, b: 5 }
 // { a: 10, b: 5 }
+
+// функция для копирования обьекта без ссылки на него  1 способ 
+// в нашем случае мы создали поверхностную копию 
+// тоесть вложенные обьекты в новой копии будут передаваться по ссылке
+function copy(mainObj) {
+    let objCopy = {};
+
+    for (key in mainObj) {
+        objCopy[key] = mainObj[key];
+    }
+
+    return objCopy;
+}
+
+const numbers = {
+    a: 1,
+    b: 2,
+    c: {
+        x: 7,
+        y: 4
+    }
+}
+
+const newNumbers = copy(numbers);
+newNumbers.a = 10;
+console.log(newNumbers);
+console.log(numbers);
+
+// соединене обьекта с помощью функции Object.assign(куда, что)
+const add = {
+    d: 17,
+    e: 20
+};
+const compareObj = Object.assign(numbers, add)
+console.log(compareObj);
+
+const add2 = {
+    d: 17,
+    e: 20
+};
+
+// копирование обьекта с помощью функции Object.assign({}, что)
+const clone = Object.assign({}, add2);
+clone.d = 21;
+console.log(clone);
+console.log(add2);
+
+// копирование Массивов (массив частный случай обьекта) методом slice()
+const oldArray = ['a', 'b', 'c'];
+const newArray = oldArray.slice();
+newArray[1] = 'adcd';
+console.log(newArray);
+console.log(oldArray);
+
+// вставка обьектов с помощью оператора спред ...obj
+const video = ['youtube', 'vimeo', 'rutube'],
+      blogs = ['wordpress', 'livejournal', 'blogger'],
+      internet = [...video, ...blogs, 'facebook'];
+console.log(internet);
+
+// разбиение массива на отдельные части с помощью оператора спред
+function log(a, b, c) {
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+const num = [2, 5, 7];
+log(...num);
+
+// копирование обьектов(массивов) с помощью оператора спред
+// массив
+const arr1 = ['a', 'c'];
+const newArr1 = [...arr1, 'z'];
+console.log(newArr1);
+console.log(arr1);
+// обьект
+const q = {
+    one: 1,
+    two: 2,
+};
+const newq = {...q};
+console.log(newq);
