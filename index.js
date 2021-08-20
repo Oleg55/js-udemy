@@ -367,3 +367,8 @@ console.log(typeof(!!'44444'));
 // файд DOM
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
 
+// lesson 29
+// действия с элементами на странице 
+// файл DOM2
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
