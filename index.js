@@ -291,3 +291,8 @@ const jonh = Object.create(soldierReal);
 jonh.sayHello();
 
 // lesson 24 in objects.js (практика по обьектам)
+
+// lesson 25 дебагинг кода в консоле во вкладке Sources
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+// так мы можем поставить breackpoint прямо в коде и потом дебыжить в консоле
+debugger;
