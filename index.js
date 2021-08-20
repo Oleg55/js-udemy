@@ -296,3 +296,64 @@ jonh.sayHello();
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
 // так мы можем поставить breackpoint прямо в коде и потом дебыжить в консоле
 debugger;
+
+// lesson 26 
+// динамическая типизация - это возможность преврвщать одит тип данных в другой
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
+// типы данных JS
+// Простые 
+// 1) Числа 1,2,3
+// 2) Строки 'string'
+// 3) Логический тип (Boolean) true/false
+// 4) null
+// 5) undefined
+// 6) Symbol
+// 7) BigInt
+// 8) Обьекты: 
+//     Спец обьекты:
+//     массивы[],
+//     функции functions,
+//     Обьекты Даты,
+//     Регулярные выражения,
+//     Ошибки.
+
+//     Обычный обьект.
+
+// И для повторения типы фкёункция 
+// 1) Function DECLARATION
+// 2) Function EXSPRESSION
+// 3) Стелочные функции
+
+// to String
+// вернет string
+// 1)
+console.log(typeof(String(null))); 
+// 2)
+console.log(typeof(5 + ''));
+const fontSize = 25 + 'px';
+ 
+// to Number
+// 1)
+console.log(typeof(Number('4')));
+// 2)
+console.log(typeof(+'4'));
+// 3)
+console.log(typeof(parseInt('15px', 10)));
+
+// to boolean
+// всегда false
+// 0, '', null, undefined, NaN;
+// 1)
+let switcher = null;
+if (switcher) {
+    console.log('working...');
+}
+switcher = 1;
+if (switcher) {
+    console.log('done');
+}
+// 2)
+console.log(typeof(Boolean('4')));
+// 3)
+console.log(typeof(!!'44444'));
