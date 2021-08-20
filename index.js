@@ -289,3 +289,5 @@ const soldierReal = {
 };
 const jonh = Object.create(soldierReal);
 jonh.sayHello();
+
+// lesson 24 in objects.js (практика по обьектам)
