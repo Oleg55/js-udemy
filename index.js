@@ -361,3 +361,9 @@ console.log(typeof(!!'44444'));
 // lesson 27
 // файл sobesJobs
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
+// lesson 28
+// работа с DOM получение элементов со страницы
+// файд DOM
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
