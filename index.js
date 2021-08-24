@@ -376,4 +376,4 @@ console.log(typeof(!!'44444'));
 // задание на отработку дейсвий со странице
 // файл DOM-hw
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
-
+// но не нашел в архиве исходников так что только видео 
