@@ -376,6 +376,10 @@ console.log(typeof(!!'44444'));
 // задание на отработку дейсвий со странице
 // файл DOM-hw
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+<<<<<<< HEAD
 
 // lesson 31
 // addEventLisener
+=======
+// но не нашел в архиве исходников так что только видео 
+>>>>>>> e880572227814f965ab9960a22e4b84defd90dfa
