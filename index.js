@@ -377,3 +377,5 @@ console.log(typeof(!!'44444'));
 // файл DOM-hw
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
 
+// lesson 31
+// addEventLisener
