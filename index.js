@@ -49,7 +49,8 @@ for (let key in options) {
     }
 }
 
-// популярный методы обьекты
+// популярный методы
+// возвращает массив имен перечисляемых свойств данного объекта, повторяемых в том же порядке, что и обычный цикл.
 console.log(Object.keys(options));
 // популярный способ получить длинну обьекта по первой вложенности
 console.log(Object.keys(options).length);
@@ -228,7 +229,7 @@ function log(a, b, c) {
     console.log(c);
 }
 const num = [2, 5, 7];
-log(...num);
+console.log(...num);
 
 // копирование обьектов(массивов) с помощью оператора спред
 // массив
@@ -376,10 +377,12 @@ console.log(typeof(!!'44444'));
 // задание на отработку дейсвий со странице
 // файл DOM-hw
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
-<<<<<<< HEAD
 
 // lesson 31
 // addEventLisener
-=======
 // но не нашел в архиве исходников так что только видео 
->>>>>>> e880572227814f965ab9960a22e4b84defd90dfa
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
+// lesson 32
+// задание на отработку дейсвий со странице
+// файл DOM-hw
