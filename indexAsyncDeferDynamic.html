@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    атрибут defer сообщает браузеру что он должен обрабатывать страницу и загружать скрипт в фоновом режиме, а затем загрузить скрипт 
+    скрипт выполнится когда DOM дерево уже готово, без defer скрипт просто не увидит содержимое дом так как сработает в самом начале
+    defer - сохраняет поочередность выполнентя скртптов
+    1 - indexAsyncDeferDynamic.js
+    2 - indexAsyncDeferDynamicTest.js
+    -->
+    <script defer src="/indexAsyncDeferDynamic.js"></script>
+    <script defer src="/indexAsyncDeferDynamicTest.js"></script>
+
+    <!-- скрипты не ждут друг друга, а загружаются кто быстрее тот и первый так же не блокируют DOM
+    обычно используют для метрик и счетчиков, ткие скрипты обычно никак не зависят от DOM и других скриптов -->
+    <!-- <script async src="/indexAsyncDeferDynamic.js"></script>
+    <script async src="/indexAsyncDeferDynamicTest.js"></script> -->
+
+    <p>Hello</p>
+    <p>Second</p>
+    
+    
+</body>
+</html>  

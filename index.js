@@ -384,5 +384,29 @@ console.log(typeof(!!'44444'));
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
 
 // lesson 32
-// задание на отработку дейсвий со странице
+// Узлы/элементы/DATA атрибуты
 // файл DOM-hw
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
+// lesson 33
+// практика
+// но не нашел в архиве исходников так что только видео 
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
+// lesson 34
+// события на мобильных устройствах
+// touch js
+
+// touchstart
+// touchmove
+// touchend
+// touchenter
+// touchleave
+// touchcancel
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
+
+// lesson 35
+// Async, defer, динамические скрипты
+// indexAsyncDeferDynamic
+// https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
