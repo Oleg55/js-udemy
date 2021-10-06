@@ -47,3 +47,48 @@ for ( let node of document.body.childNodes ) {
     }
     console.log(node);
 }
+
+
+// ClassList и делегирование событий 
+const btns = document.querySelectorAll('button');
+// кол-во классов у элемента
+console.log(btns[0].classList.length);
+
+// получаем класс под нулевым индексом
+console.log(btns[0].classList.item(0));
+
+// добавляем класс
+// несколько классов можно передавать черз запятую
+console.log(btns[0].classList.add('red'));
+console.log(btns[0].classList.add('yellow', 'green', 'blue'));
+
+// удаляем класс
+console.log(btns[0].classList.remove('raz'));
+
+// toggle если класса нет то добавляем, если есть то убираем
+console.log(btns[0].classList.toggle('raz'));
+
+// проверка наличия класса на определенном элементе
+// вернет true/false
+if (btns[0].classList.contains('blue')) {
+    console.log('blue');
+}
+
+// Делегирование событий
+const wrapper = document.querySelector('.btn-wrapper');
+
+wrapper.addEventListener('click', (event) => {
+    if (event.target && event.target.tagName == 'BUTTON') {
+        console.log('hi');
+    }
+});
+// более продвинутый вариант через matches
+wrapper.addEventListener('click', (event) => {
+    if (event.target && event.target.matches("button.red")) {
+        console.log('hi2');
+    }
+});
+
+const btn = document.createElement('button');
+btn.innerHTML = '7';
+wrapper.append(btn);

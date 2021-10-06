@@ -410,3 +410,86 @@ console.log(typeof(!!'44444'));
 // Async, defer, динамические скрипты
 // indexAsyncDeferDynamic
 // https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata
+
+// lesson 36
+// про что будет вторая часть модуля
+
+// lesson 37
+// ClassList и делегирование событий 
+// файл DOM-hw
+
+// lesson 38
+// создание табов
+
+// lesson 39
+// скрипты и время их выполнения. setTimeout и setInterval
+// файл setTimeoutInterval
+
+
+// lesson 40
+// работа с датами
+// файл date js
+
+// lesson 41 
+// создаем таймер обратного отсчета (не смотрел)
+
+// lesson 42 
+// параметры документа, окна и работы с ними
+// файл clientWidthAndOther
+
+// lesson 43 
+// создание модального окна (не смотрел)
+
+// lesson 44
+// модификации модального окна (не смотрел)
+
+// lesson 45
+// функции-конструкторы
+// файл funcContruct
+
+// lesson 46
+// контекст вызова this
+// файл this
+
+// lesson 47
+// классы 
+// файл class
+
+// lesson 48
+// использование классов в реальной работе
+// файл classuse
+
+// lesson 49
+// Rest оператор и пaрaметры по умолчанию
+// файл rest
+
+// lesson 50
+// локальный сервер
+// можно установить MAMP или Open Server
+
+// lesson 51
+// JSON формат передачи данных, глубокое клонирование обькьтов
+// файл JSON
+
+// lesson 52
+// AJAX и общение с сервером
+// файл AJAX
+
+// lesson 53
+// Реализация скрипта отправки на сервер (пропустил этот урок)
+
+// lesson 54
+// Красивое оповещение пользователя (пропустил этот урок)
+
+// lesson 55
+// Promise (ES6)
+// файл promise
+
+
+// lesson 56
+// Fetch API
+// файл FetchAPI
+
+// lesson 57
+// методы перебора массивов
+// arrMethods
