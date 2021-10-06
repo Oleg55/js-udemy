@@ -493,3 +493,11 @@ console.log(typeof(!!'44444'));
 // lesson 57
 // методы перебора массивов
 // arrMethods
+
+// lesson 58
+// Подробно про npm и проекты. JSON - server.
+// папка JSONserverProject
+
+// lesson 59
+// Получение данных с сервера. Async/Await (ES8)
+// папка JSONserverProject
