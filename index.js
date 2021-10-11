@@ -501,3 +501,62 @@ console.log(typeof(!!'44444'));
 // lesson 59
 // Получение данных с сервера. Async/Await (ES8)
 // папка JSONserverProject
+
+// lesson 60
+// Библиотека axios
+// в папке JSONserverProject в MAMP
+
+// lesson 61
+// создание слайдера вариант 1 (пропустил)
+
+// lesson 62
+// создание слайдера вариант 2 (пропустил)
+
+// lesson 63
+// создание навигацию для слайдов (пропустил)
+
+// lesson 64
+// Работа с localStorage
+// файл localStorage
+
+// lesson 65
+// Регулярные выражения
+// файл regular
+
+
+// lesson 66
+// Создаем калькулятор на сайте, часть 1 (пропустил)
+
+// lesson 67
+// Создаем калькулятор на сайте, часть 2 (пропустил)
+
+// lesson 68
+// Геттеры и сеттеры (свойства обьектов)
+// файл gettersSetters
+
+// lesson 69
+// Инкапсуляция 
+// файл incaps
+
+// lesson 70
+// Прием модуль, как и зачем его использовать
+// файл module
+
+// lesson 71
+// Webpack
+// папка mamp/webpack 
+
+// lesson 72
+// ES6 Modules
+// папка es6modules
+
+// lesson 73-78 (пропустил)
+
+// lesson 79
+// функции - генераторы
+// файл functionGenerator
+
+
+// lesson 80
+// JS анимации, requestAnimationFrame
+// файл JSAnimation
