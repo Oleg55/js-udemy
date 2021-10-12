@@ -560,3 +560,9 @@ console.log(typeof(!!'44444'));
 // lesson 80
 // JS анимации, requestAnimationFrame
 // файл JSAnimation
+
+// lesson 81
+// Event loop, подробная работа асинхронных и синхронных операций
+// только видео
+
+// конец уроков по JS далее React
